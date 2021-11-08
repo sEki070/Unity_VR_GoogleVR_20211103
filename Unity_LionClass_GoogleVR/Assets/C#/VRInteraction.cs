@@ -28,7 +28,7 @@ public class VRInteraction : MonoBehaviour
     /// </summary>
     public void OnPointerExit()
     {
-        onEnter.Invoke();
+        onExit.Invoke();
     }
 
     /// <summary>
@@ -36,6 +36,6 @@ public class VRInteraction : MonoBehaviour
     /// </summary>
     public void OnPointerClick()
     {
-        onEnter.Invoke();
+        onClick.Invoke();
     }
 }
